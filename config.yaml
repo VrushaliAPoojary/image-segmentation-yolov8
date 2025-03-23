@@ -1,6 +1,8 @@
-path: /home/phillip/Desktop/todays_tutorial/41_image_segmentation_yolov8/code/data
-train: images/train 
-val: images/val  
+# config.yaml
+path: C:/Users/hp/OneDrive/Documents/segmentationdataset/image-segmentation-yolov8/images
+train: C:/Users/hp/OneDrive/Documents/segmentationdataset/image-segmentation-yolov8/images/train
+val: C:/Users/hp/OneDrive/Documents/segmentationdataset/image-segmentation-yolov8/images/val
 
-nc: 1
-names: ['duck']
+nc: 5  # Number of classes
+names: ['inflorescence', 'old inflorescence', 'young inflorescence', 'arecanut', 'arecanut tree']
+
